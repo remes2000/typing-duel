@@ -206,3 +206,31 @@ a.btn{
     background: #4ecca3;
     color: gray;
 }
+
+#Train .text-to-write-display{
+    color: #eeeeee;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: 0.2rem solid #eeeeee;
+    border-radius: .5rem;
+    text-align: justify;
+    max-height: 30rem;
+    overflow-y: auto;
+    line-height: 150%;
+}
+
+.word-input{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+}
+
+.incorrect-input{
+    background-color: red;
+}
+
+.word-to-write{
+    color: #4ecca3;
+    font-size: 2.5rem;
+}
